@@ -5,7 +5,9 @@ import (
 	"os"
 )
 
-const dataFile = "data/data.json"
+//本地文件的绝对路径
+const dataFile = "/Users/gongyao/workspace/go_code1/code/chapter2/sample/data/data.json";
+//const dataFile = "data/data.json"
 
 // Feed contains information we need to process a feed.
 type Feed struct {
