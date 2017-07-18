@@ -3,6 +3,7 @@ package search
 import (
 	"log"
 	"sync"
+	"os"
 )
 
 // A map of registered matchers for searching.
@@ -14,6 +15,7 @@ func Run(searchTerm string) {
 	feeds, err := RetrieveFeeds()
 	if err != nil {
 		log.Fatal(err)
+		os.Exit(1)
 	}
 
 	// Create an unbuffered channel to receive match results to display.
@@ -28,7 +30,7 @@ func Run(searchTerm string) {
 
 	// Launch a goroutine for each feed to find the results.
 	for _, feed := range feeds {
-		// Retrieve a matcher for the search.
+		// Retrieve a matcher for the search. 获取一个匹配器用于查找
 		matcher, exists := matchers[feed.Type]
 		if !exists {
 			matcher = matchers["default"]
