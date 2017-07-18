@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/goinaction/code/chapter3/words"
+	"../../chapter3/words"
 )
 
 // main is the entry point for the application.
 func main() {
-	filename := os.Args[1]
+	filename := os.Args[0]
 
 	contents, err := ioutil.ReadFile(filename)
 	if err != nil {
@@ -20,7 +20,6 @@ func main() {
 	}
 
 	text := string(contents)
-
 	count := words.CountWords(text)
 	fmt.Printf("There are %d words in your text. \n", count)
 }
