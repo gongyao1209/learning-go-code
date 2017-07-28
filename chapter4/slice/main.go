@@ -2,6 +2,7 @@ package main
 
 import (
 	a "../structure"
+	"fmt"
 )
 
 func main() {
@@ -15,7 +16,10 @@ func main() {
 	////slice1 := make([]int, 3, 5)
 	//
 	////使用字面量来建立切片，[]
-	////slice2 := []string{"red", "blue", "green", "yellow"}
+	slice2 := []string{"red", "blue", "green", "yellow"}
+	fmt.Printf("slice len is: %d\n", len(slice2))
+	fmt.Printf("slice cap is: %d\n", cap(slice2))
+
 	//
 	////slice3 := []int{10, 20, 30}
 	//
