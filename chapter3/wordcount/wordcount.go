@@ -11,7 +11,7 @@ import (
 
 // main is the entry point for the application.
 func main() {
-	filename := os.Args[0]
+	filename := os.Args[1]
 
 	contents, err := ioutil.ReadFile(filename)
 	if err != nil {

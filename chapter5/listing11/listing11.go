@@ -12,6 +12,11 @@ type user struct {
 	email string
 }
 
+type admin struct {
+	people user
+	age int
+}
+
 // notify implements a method with a value receiver.
 func (u user) notify() {
 	fmt.Printf("Sending User Email To %s<%s>\n",
@@ -45,4 +50,42 @@ func main() {
 	// declared with a pointer receiver.
 	lisa.changeEmail("lisa@newdomain.com")
 	lisa.notify()
+
+	//已经初始化了
+	gyao := user{
+		email:"gongyao1992@qq.com",
+		name:"gongyao",
+	}
+	//gyao1 := user{"gongyao1", "gongyao1992@qq.com"}
+
+	gyao.notify()
+	gyao.changeName("wanghui")
+	gyao.notify()
+	//gyao1.notify()
+
+	gyao2 := admin{
+		people:gyao,
+		age:25,
+	}
+
+	gyao2.people.notify()
+	gyao2.people.changeName("yaoke")
+	gyao2.people.notify()
+
+	gyao3 := admin{
+		people:user{
+			name:"haonan",
+			email:"heshun@qq.com",
+		},
+		age:21,
+	}
+	gyao3.notify2()
+}
+
+func (u *user)changeName(new_name string) {
+	u.name = new_name
+}
+
+func (ad admin) notify2() {
+	fmt.Printf("name:%s, email:%s, age:%d\n", ad.people.name, ad.people.email, ad.age)
 }
