@@ -29,6 +29,7 @@ func main() {
 	// Create a value of type User and send a notification.
 	u := user{"Bill", "bill@email.com"}
 
+	//u.notify()
 	sendNotification(u)
 
 	// ./listing36.go:32: cannot use u (type user) as type
@@ -39,6 +40,6 @@ func main() {
 
 // sendNotification accepts values that implement the notifier
 // interface and sends notifications.
-func sendNotification(n notifier) {
+func sendNotification(n user) {
 	n.notify()
 }
