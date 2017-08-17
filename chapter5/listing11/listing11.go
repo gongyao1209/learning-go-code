@@ -4,6 +4,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 // user defines a user in the program.
@@ -54,6 +55,7 @@ func main() {
 	// declared with a pointer receiver.
 	//lisa.changeEmail("lisa@newdomain.com")
 	//lisa.notify()
+	fmt.Printf("%s", time.Now())
 }
 
 func (u *user)changeName(new_name string) {
