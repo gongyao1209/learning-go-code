@@ -20,6 +20,10 @@ func (u *user) notify() {
 		u.email)
 }
 
+func (u *user) change() {
+	u.name = "wanghui"
+}
+
 // admin represents an admin user with privileges.
 type admin struct {
 	user  // Embedded Type
@@ -42,4 +46,13 @@ func main() {
 
 	// The inner type's method is promoted.
 	ad.notify()
+
+	ad1 := admin{
+		user: user{
+			name: "gongyao",
+			email: "gongyao1992@qq.com",
+		},
+	}
+	ad1.change()
+	ad1.notify()
 }

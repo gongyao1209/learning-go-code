@@ -35,9 +35,11 @@ type admin struct {
 // notify implements a method that can be called via
 // a value of type Admin.
 func (a *admin) notify() {
-	fmt.Printf("Sending admin email to %s<%s>\n",
+	fmt.Printf("Sending admin email to %s<%s>, level %s\n",
 		a.name,
-		a.email)
+		a.email,
+		a.level,
+	)
 }
 
 // main is the entry point for the application.

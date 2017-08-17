@@ -17,7 +17,7 @@ func main() {
 	d := duration(42)
 	fmt.Printf(d.pretty())
 
-	//42 属于临时变量
+	//42 属于临时变量，不可取地址
 	//duration(42).pretty()
 
 	// ./listing46.go:17: cannot call pointer method on duration(42)

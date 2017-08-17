@@ -40,6 +40,6 @@ func main() {
 
 // sendNotification accepts values that implement the notifier
 // interface and sends notifications.
-func sendNotification(n user) {
+func sendNotification(n notifier) {
 	n.notify()
 }
