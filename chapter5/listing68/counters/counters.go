@@ -3,10 +3,10 @@ package counters
 
 // alertCounter is an unexported type that
 // contains an integer counter for alerts.
-type alertCounter int
+type AlertCounter int
 
 // New creates and returns values of the unexported
 // type alertCounter.
-func New(value int) alertCounter {
-	return alertCounter(value)
+func New(value int) AlertCounter {
+	return AlertCounter(value)
 }
