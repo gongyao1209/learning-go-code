@@ -1,5 +1,6 @@
 // Example is provided with help by Gabriel Aszalos.
 // Package runner manages the running and lifetime of a process.
+// runner 包管理处理任务的运行和生命周期
 package runner
 
 import (
@@ -11,19 +12,25 @@ import (
 
 // Runner runs a set of tasks within a given timeout and can be
 // shut down on an operating system interrupt.
+// Runner在给定的超时时间内执行一组任务，
+// 并且在操作系统中发送中断信号时结束这些任务
 type Runner struct {
 	// interrupt channel reports a signal from the
 	// operating system.
+	// 报告从操作系统发送的信号
 	interrupt chan os.Signal
 
 	// complete channel reports that processing is done.
+	// 报告处理任务已经完成
 	complete chan error
 
 	// timeout reports that time has run out.
+	// 报告处理任务已经超时
 	timeout <-chan time.Time
 
 	// tasks holds a set of functions that are executed
 	// synchronously in index order.
+	// 持有一组以索引顺序依次执行的函数
 	tasks []func(int)
 }
 
