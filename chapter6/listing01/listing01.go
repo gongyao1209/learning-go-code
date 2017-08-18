@@ -12,7 +12,7 @@ import (
 func main() {
 	// Allocate 1 logical processor for the scheduler to use.
 	// 分配一个逻辑处理器给调度器使用
-	runtime.GOMAXPROCS(1)
+	runtime.GOMAXPROCS(2)
 
 	// wg is used to wait for the program to finish.
 	// wg 用来等待程序完成
@@ -56,7 +56,9 @@ func main() {
 	}()
 
 	// Wait for the goroutines to finish.
+	// 不管 goroutine的执行情况，main函数首先会执行。他们愿意说什么就说什么吧，我们必将平稳的达到我们的既定目标
 	fmt.Println("Waiting To Finish")
+	// 这里等待两个 goroutine完成工作
 	wg.Wait()
 
 	fmt.Println("\nTerminating Program")

@@ -3,6 +3,7 @@ package main
 import (
 	chap5 "../test/chapter5"
 	"fmt"
+	"runtime"
 )
 
 func main()  {
@@ -16,10 +17,6 @@ func main()  {
 	yaoke.SetMobile1("176")
 	yaoke.Show()
 
-	var counter chap5.AlertCounter
-	counter = chap5.New(11)
-	fmt.Printf("Counter: %d\n", counter)
-	//str := "gongyao"
-	//= chap5.GetName(str)
+	fmt.Printf("Cpu number is :%d\n", runtime.NumCPU())
 }
 

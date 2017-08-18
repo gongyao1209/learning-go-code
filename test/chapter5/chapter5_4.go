@@ -19,9 +19,9 @@ func (u User)Show() {
 	fmt.Printf("user name :%s, mobile:%s\n", u.name, u.mobile)
 }
 
-func GetName(name string) {
-	return fmt.Sprintf("aaa%s", name)
-}
+//func GetName(name string) {
+//	return fmt.Sprintf("aaa%s", name)
+//}
 
 type AlertCounter int
 

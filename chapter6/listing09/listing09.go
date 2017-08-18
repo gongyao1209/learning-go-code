@@ -1,18 +1,22 @@
 // This sample program demonstrates how to create race
 // conditions in our programs. We don't want to do this.
+// 这个示例程序展示如何在程序里造成竞争状态。多个goroutine访问相同的资源
+// 实际上不希望出现这种情况
 package main
 
 import (
 	"fmt"
-	"runtime"
 	"sync"
+	"runtime"
 )
 
 var (
 	// counter is a variable incremented by all goroutines.
+	// counter 是所有goroutine都要增加其值的变量
 	counter int
 
 	// wg is used to wait for the program to finish.
+	// wg用来等待程序结束
 	wg sync.WaitGroup
 )
 
@@ -40,6 +44,8 @@ func incCounter(id int) {
 		value := counter
 
 		// Yield the thread and be placed back in queue.
+		// 当前 goroutine 从线程退出，并且放回到队列
+		fmt.Printf("赋值之💰，goroutine %d counter is %d\n", id, counter)
 		runtime.Gosched()
 
 		// Increment our local value of Counter.
@@ -47,5 +53,6 @@ func incCounter(id int) {
 
 		// Store the value back into Counter.
 		counter = value
+		fmt.Printf("赋值之后，goroutine %d counter is %d\n", id, counter)
 	}
 }

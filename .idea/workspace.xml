@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98cada6a-fd72-4796-aac7-e41710414f25" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6/listing01/listing01.go" afterPath="$PROJECT_DIR$/chapter6/listing01/listing01.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6/listing04/listing04.go" afterPath="$PROJECT_DIR$/chapter6/listing04/listing04.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6/listing07/listing07.go" afterPath="$PROJECT_DIR$/chapter6/listing07/listing07.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6/listing09/listing09.go" afterPath="$PROJECT_DIR$/chapter6/listing09/listing09.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/chapter5/chapter5_4.go" afterPath="$PROJECT_DIR$/test/chapter5/chapter5_4.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/main.go" afterPath="$PROJECT_DIR$/test/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,10 +35,10 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
-                <element signature="e#14#57#0" expanded="true" />
+                <element signature="e#14#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listing01.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listing01.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter6/listing01/listing01.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="348">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="e#109#145#0" expanded="true" />
               </folding>
@@ -63,22 +69,42 @@
       <file leaf-file-name="chapter5_4.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/chapter5/chapter5_4.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listing04.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter6/listing04/listing04.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
               <folding>
-                <element signature="e#18#30#0" expanded="true" />
+                <element signature="e#128#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listing68.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter5/listing68/listing68.go">
+      <file leaf-file-name="listing07.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter6/listing07/listing07.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listing09.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter6/listing09/listing09.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
-                <element signature="e#128#170#0" expanded="true" />
+                <element signature="e#185#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,26 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entities.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter5/listing71/entities/entities.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="counters.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter5/listing68/counters/counters.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -152,6 +158,7 @@
     <findStrings>
       <find>exec_windows</find>
       <find>notifier</find>
+      <find>runtime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,13 +203,16 @@
         <option value="$PROJECT_DIR$/test/chapter5/chapter5.go" />
         <option value="$PROJECT_DIR$/chapter5/listing68/counters/counters.go" />
         <option value="$PROJECT_DIR$/chapter5/listing68/listing68.go" />
-        <option value="$PROJECT_DIR$/test/chapter5/chapter5_4.go" />
-        <option value="$PROJECT_DIR$/test/main.go" />
         <option value="$PROJECT_DIR$/chapter5/listing71/listing71.go" />
         <option value="$PROJECT_DIR$/chapter5/listing71/entities/entities.go" />
         <option value="$PROJECT_DIR$/chapter5/listing74/listing74.go" />
         <option value="$PROJECT_DIR$/chapter5/listing74/entities/entities.go" />
         <option value="$PROJECT_DIR$/chapter6/listing01/listing01.go" />
+        <option value="$PROJECT_DIR$/chapter6/listing04/listing04.go" />
+        <option value="$PROJECT_DIR$/test/main.go" />
+        <option value="$PROJECT_DIR$/test/chapter5/chapter5_4.go" />
+        <option value="$PROJECT_DIR$/chapter6/listing07/listing07.go" />
+        <option value="$PROJECT_DIR$/chapter6/listing09/listing09.go" />
       </list>
     </option>
   </component>
@@ -261,6 +271,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listing09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listing07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listing04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,35 +455,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run listing01.go">
+  <component name="RunManager" selected="Go Single File.go run listing09.go">
     <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="code" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/test/main.go" />
       <method />
     </configuration>
-    <configuration default="false" name="go run listing68.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="code" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/chapter5/listing68/listing68.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run listing71.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="code" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/chapter5/listing71/listing71.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run listing74.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="code" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/chapter5/listing74/listing74.go" />
-      <method />
-    </configuration>
     <configuration default="false" name="go run listing01.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="code" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/chapter6/listing01/listing01.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run listing04.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="code" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/chapter6/listing04/listing04.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run listing07.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="code" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/chapter6/listing07/listing07.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run listing09.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="code" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/chapter6/listing09/listing09.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -838,18 +902,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.words_count" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run listing68.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run listing71.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run listing74.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run listing01.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run listing01.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run listing04.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run listing07.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run listing09.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run listing01.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run listing74.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run listing71.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run listing68.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run listing09.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run listing07.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run listing04.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run listing01.go" />
       </list>
     </recent_temporary>
   </component>
@@ -872,12 +936,12 @@
       <workItem from="1502098024636" duration="2637000" />
       <workItem from="1502158071836" duration="50000" />
       <workItem from="1502185259748" duration="3182000" />
-      <workItem from="1502954417912" duration="7946000" />
+      <workItem from="1502954417912" duration="11489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49982000" />
+    <option name="totallyTimeSpent" value="53525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -929,7 +993,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -937,27 +1003,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/net/http/http_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/net/http/method.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/net/http/jar.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/net/http/cgi/child_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1239,16 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/chapter5/chapter5_4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#18#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter5/listing68/counters/counters.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1303,16 +1338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/array/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1323,10 +1348,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter6/listing01/listing01.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="348">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#109#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapter5/chapter5_4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/listing04/listing04.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#128#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/listing07/listing07.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/listing09/listing09.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="e#185#221#0" expanded="true" />
           </folding>
         </state>
       </provider>
