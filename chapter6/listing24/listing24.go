@@ -30,6 +30,11 @@ func main() {
 	// Create a buffered channel to manage the task load.
 	tasks := make(chan string, taskLoad)
 
+	// Add a bunch of work to get done.
+	//for post := 1; post <= taskLoad; post++ {
+	//	tasks <- fmt.Sprintf("Task : %d", post)
+	//}
+
 	// Launch goroutines to handle the work.
 	wg.Add(numberGoroutines)
 	for gr := 1; gr <= numberGoroutines; gr++ {
@@ -37,6 +42,7 @@ func main() {
 	}
 
 	// Add a bunch of work to get done.
+	// 往通道里面添加东西 这个步骤可以放到上面的位置
 	for post := 1; post <= taskLoad; post++ {
 		tasks <- fmt.Sprintf("Task : %d", post)
 	}
@@ -68,6 +74,7 @@ func worker(tasks chan string, worker int) {
 		fmt.Printf("Worker: %d : Started %s\n", worker, task)
 
 		// Randomly wait to simulate work time.
+		// 随机时间，程序sleep一段时间才能体现出来 goroutine的特点
 		sleep := rand.Int63n(100)
 		time.Sleep(time.Duration(sleep) * time.Millisecond)
 
