@@ -1,6 +1,9 @@
 // This sample program demonstrates how to use the atomic
 // package functions Store and Load to provide safe access
 // to numeric types.
+// 这个示例程序展示如何使用 atomic 包里的
+// Store 和 Load类 函数来提供对数值类型的
+// 安全访问
 package main
 
 import (

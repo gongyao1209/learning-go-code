@@ -45,7 +45,6 @@ func incCounter(id int) {
 
 		// Yield the thread and be placed back in queue.
 		// 当前 goroutine 从线程退出，并且放回到队列
-		fmt.Printf("赋值之💰，goroutine %d counter is %d\n", id, counter)
 		runtime.Gosched()
 
 		// Increment our local value of Counter.
@@ -53,6 +52,5 @@ func incCounter(id int) {
 
 		// Store the value back into Counter.
 		counter = value
-		fmt.Printf("赋值之后，goroutine %d counter is %d\n", id, counter)
 	}
 }

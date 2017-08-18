@@ -36,10 +36,13 @@ func main() {
 // incCounter increments the package level counter variable.
 func incCounter(id int) {
 	// Schedule the call to Done to tell main we are done.
+	// 在函数退出时，调用Done来通知main goroutine 已经完成任务
 	defer wg.Done()
 
-	for count := 0; count < 2; count++ {
+	for count := 0; count < 200000; count++ {
 		// Safely Add One To Counter.
+		// 安全的对counter加1
+		//counter += 1
 		atomic.AddInt64(&counter, 1)
 
 		// Yield the thread and be placed back in queue.
