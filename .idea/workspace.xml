@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98cada6a-fd72-4796-aac7-e41710414f25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6/listing07/listing07.go" afterPath="$PROJECT_DIR$/chapter6/listing07/listing07.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter7/patterns/runner/main/main.go" afterPath="$PROJECT_DIR$/chapter7/patterns/runner/main/main.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter7/patterns/runner/runner.go" afterPath="$PROJECT_DIR$/chapter7/patterns/runner/runner.go" />
-    </list>
+    <list default="true" id="98cada6a-fd72-4796-aac7-e41710414f25" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +39,8 @@
       <file leaf-file-name="runner.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter7/patterns/runner/runner.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="80" column="18" lean-forward="false" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+            <state relative-caret-position="334">
+              <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
               <folding>
                 <element signature="e#160#207#0" expanded="true" />
               </folding>
@@ -971,12 +966,12 @@
       <workItem from="1502098024636" duration="2637000" />
       <workItem from="1502158071836" duration="50000" />
       <workItem from="1502185259748" duration="3182000" />
-      <workItem from="1502954417912" duration="21095000" />
+      <workItem from="1502954417912" duration="21429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63131000" />
+    <option name="totallyTimeSpent" value="63465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1455,8 +1450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter7/patterns/runner/runner.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="80" column="18" lean-forward="false" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        <state relative-caret-position="334">
+          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
           <folding>
             <element signature="e#160#207#0" expanded="true" />
           </folding>
