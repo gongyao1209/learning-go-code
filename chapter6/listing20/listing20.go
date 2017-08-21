@@ -33,6 +33,7 @@ func main() {
 	// Launch two players.
 	go player("Nadal", court)
 	go player("Djokovic", court)
+	//go player("Gongyao", court)
 
 	// Start the set.
 	// 为什么要放到这个位置？？？
