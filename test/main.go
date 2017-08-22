@@ -18,5 +18,7 @@ func main()  {
 	yaoke.Show()
 
 	fmt.Printf("Cpu number is :%d\n", runtime.NumCPU())
+
+	fmt.Print(chap5.New(12))
 }
 

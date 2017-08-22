@@ -27,6 +27,7 @@ type AlertCounter int
 
 // New creates and returns values of the unexported
 // type alertCounter.
-func New(value int) AlertCounter {
-	return AlertCounter(value)
+func New(value int) (a AlertCounter) {
+	a = AlertCounter(value)
+	return
 }
