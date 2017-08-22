@@ -31,8 +31,10 @@ func init() {
  */
 func main() {
 	c := make(chan int)
+	wg.Add(2)
+
 	go printer(c)
-	wg.Add(1)
+	go printer1(c)
 
 	// Send 10 integers on the channel.
 	for i := 1; i <= 10; i++ {

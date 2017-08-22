@@ -46,6 +46,9 @@ func main() {
 	lisa := &user{"Lisa", "lisa@email.com"}
 	lisa.notify()
 
+	a := lisa.changeName("gongyao")
+	fmt.Println(a)
+
 	// Values of type user can be used to call methods
 	// declared with a pointer receiver.
 	//bill.changeEmail("bill@newdomain.com")
@@ -58,8 +61,11 @@ func main() {
 	fmt.Printf("%s", time.Now())
 }
 
-func (u *user)changeName(new_name string) {
+func (u *user)changeName(new_name string) (a string){
 	u.name = new_name
+	a = new_name
+
+	return
 }
 
 func (ad admin) notify2() {

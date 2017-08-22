@@ -22,6 +22,5 @@ func main() {
 	fmt.Printf("arr1 position %s\n", arr2)
 	fmt.Printf("arr2 position %s\n", *arr5[0])
 
-
-	fmt.Printf("HelloWorld")
+	fmt.Print("HelloWorld ", len(arr1))
 }

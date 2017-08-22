@@ -4,14 +4,15 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"os"
+	//"os"
 
 	"../../chapter3/words"
 )
 
 // main is the entry point for the application.
 func main() {
-	filename := os.Args[1]
+	//filename := os.Args[1]
+	filename := "/Users/gongyao/workspace/go_code1/code/chapter3/wordcount/gowords.txt"
 
 	contents, err := ioutil.ReadFile(filename)
 	if err != nil {
