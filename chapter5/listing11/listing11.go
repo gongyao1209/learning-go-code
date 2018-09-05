@@ -46,8 +46,8 @@ func main() {
 	lisa := &user{"Lisa", "lisa@email.com"}
 	lisa.notify()
 
-	a := lisa.changeName("gongyao")
-	fmt.Println(a)
+	ab := lisa.changeName("gongyao")
+	fmt.Println(ab)
 
 	// Values of type user can be used to call methods
 	// declared with a pointer receiver.
