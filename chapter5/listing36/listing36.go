@@ -1,4 +1,5 @@
 // Sample program to show how to use an interface in Go.
+// go中接口的使用
 package main
 
 import (
@@ -27,7 +28,8 @@ func (u *user) notify() {
 // main is the entry point for the application.
 func main() {
 	// Create a value of type User and send a notification.
-	u := user{"Bill", "bill@email.com"}
+	//u := user{"Bill", "bill@email.com"}
+	var u notifier = &user{"Bill", "bill@email.com"}
 
 	//u.notify()
 	sendNotification(u)
@@ -36,10 +38,36 @@ func main() {
 	//                     notifier in argument to sendNotification:
 	//   user does not implement notifier
 	//                          (notify method has pointer receiver)
+
+	var c Person = &Chinese{}
+	var e Person = &English{}
+
+	JustSpeak(c)
+	JustSpeak(e)
 }
 
 // sendNotification accepts values that implement the notifier
 // interface and sends notifications.
 func sendNotification(n notifier) {
 	n.notify()
+}
+
+type Person interface {
+	Speak()
+}
+
+type Chinese struct{}
+
+func (p *Chinese)Speak()  {
+	fmt.Println("你好，世界")
+}
+
+type English struct{}
+
+func (p *English)Speak()  {
+	fmt.Println("hello, world")
+}
+
+func JustSpeak(p Person)  {
+	p.Speak()
 }

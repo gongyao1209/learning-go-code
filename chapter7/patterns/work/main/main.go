@@ -1,13 +1,15 @@
 // This sample program demonstrates how to use the work package
 // to use a pool of goroutines to get work done.
+
+// 使用goroutines池进行工作
 package main
 
 import (
-	"log"
-	"sync"
-	"time"
-
 	"../../work"
+	"fmt"
+	"log"
+	"runtime"
+	"time"
 )
 
 // names provides a set of names to display.
@@ -32,11 +34,20 @@ func (m *namePrinter) Task() {
 
 // main is the entry point for all Go programs.
 func main() {
+	// 创建两个进程的工作池
 	// Create a work pool with 2 goroutines.
 	p := work.New(2)
 
-	var wg sync.WaitGroup
-	wg.Add(100 * len(names))
+	fmt.Println(runtime.NumGoroutine())
+
+	p.Shutdown()
+
+	fmt.Println(runtime.NumGoroutine())
+
+	return
+	//return
+	//var wg sync.WaitGroup
+	//wg.Add(100 * len(names))
 
 	for i := 0; i < 100; i++ {
 		// Iterate over the slice of names.
@@ -47,16 +58,18 @@ func main() {
 				name: name,
 			}
 
-			go func() {
+			//go func() {
 				// Submit the task to be worked on. When RunTask
 				// returns we know it is being handled.
 				p.Run(&np)
-				wg.Done()
-			}()
+				//wg.Done()
+			//}()
+
+			fmt.Println(runtime.NumGoroutine())
 		}
 	}
 
-	wg.Wait()
+	//wg.Wait()
 
 	// Shutdown the work pool and wait for all existing work
 	// to be completed.

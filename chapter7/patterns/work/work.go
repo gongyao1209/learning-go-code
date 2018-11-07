@@ -26,10 +26,10 @@ func New(maxGoroutines int) *Pool {
 	p.wg.Add(maxGoroutines)
 	for i := 0; i < maxGoroutines; i++ {
 		go func() {
+			defer p.wg.Done()
 			for w := range p.work {
 				w.Task()
 			}
-			p.wg.Done()
 		}()
 	}
 

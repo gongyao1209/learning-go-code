@@ -11,5 +11,6 @@ type user struct {
 // Admin defines an admin in the program.
 type Admin struct {
 	user   // The embedded type is unexported.
+	Name string
 	Rights int
 }
