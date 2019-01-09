@@ -9,7 +9,6 @@ import (
 	"fmt"
 	"log"
 	"runtime"
-	"time"
 )
 
 // names provides a set of names to display.
@@ -29,7 +28,7 @@ type namePrinter struct {
 // Task implements the Worker interface.
 func (m *namePrinter) Task() {
 	log.Println(m.name)
-	time.Sleep(time.Second)
+	//time.Sleep(time.Second)
 }
 
 // main is the entry point for all Go programs.
@@ -40,11 +39,10 @@ func main() {
 
 	fmt.Println(runtime.NumGoroutine())
 
-	p.Shutdown()
+	//p.Shutdown()
 
 	fmt.Println(runtime.NumGoroutine())
 
-	return
 	//return
 	//var wg sync.WaitGroup
 	//wg.Add(100 * len(names))
@@ -64,8 +62,6 @@ func main() {
 				p.Run(&np)
 				//wg.Done()
 			//}()
-
-			fmt.Println(runtime.NumGoroutine())
 		}
 	}
 

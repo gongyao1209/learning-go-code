@@ -13,7 +13,7 @@ type Worker interface {
 // Pool provides a pool of goroutines that can execute any Worker
 // tasks that are submitted.
 type Pool struct {
-	work chan Worker
+	work chan Worker //是一个信道接口 这种思路很有意思
 	wg   sync.WaitGroup
 }
 

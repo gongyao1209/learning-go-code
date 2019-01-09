@@ -2,10 +2,12 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
+	"time"
 )
 
 var (
@@ -16,7 +18,15 @@ var (
 )
 
 func init() {
-	file, err := os.OpenFile("errors.txt",
+	//file_name := time.Now().String()
+	y := time.Now().Year()
+	m := time.Now().Month()
+	d := time.Now().Day()
+
+	file_name := fmt.Sprintf("log_%d%d%d.txt", y, m, d)
+	fmt.Println(file_name)
+
+	file, err := os.OpenFile(file_name,
 		os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		log.Fatalln("Failed to open error log file:", err)
