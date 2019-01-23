@@ -17,7 +17,6 @@ func Run(searchTerm string) {
 		log.Fatal(err)
 		os.Exit(1)
 	}
-
 	// Create an unbuffered channel to receive match results to display.
 	results := make(chan *Result)
 
